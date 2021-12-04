@@ -1,0 +1,19 @@
+package com.example.demo;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+//MVC
+//Model - data and working logic with them
+//View - UI
+//Controller - business logic of the app
+
+
+@SpringBootApplication
+public class SpringApp1Application {
+
+	public static void main(String[] args) {
+		SpringApplication.run(SpringApp1Application.class, args);
+	}
+
+}
